@@ -24,7 +24,7 @@ export const metadata = {
   title: "Trimzy - Shorten.Share.Simplify",
   description: "Trimzy is a fast, reliable URL shortener that helps you trim long links into sleek, shareable URLs. Perfect for social media, marketing, and everyday use—shorten and manage links with ease.",
   icons: {
-    icon: "/favicon.png", // or "/favicon.png"
+    icon: "/favicon.png",
   },
 };
 
