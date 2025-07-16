@@ -18,10 +18,10 @@ const Navbar = () => {
           <span className="block w-6 h-0.5 bg-white"></span>
         </button>
         <ul className="hidden md:flex justify-center gap-5 items-center">
-          <li><Link href="/">Home</Link></li>
-          <li><Link href="/about">About</Link></li>
-          <li><Link href="/shorten">Shorten</Link></li>
-          <li><Link href="/contact">Contact Us</Link></li>
+          <li><Link href="/" className='hover:font-bold transition-all duration-150'>Home</Link></li>
+          <li><Link href="/about" className='hover:font-bold transition-all duration-150'>About</Link></li>
+          <li><Link href="/shorten" className='hover:font-bold transition-all duration-150'>Shorten</Link></li>
+          <li><Link href="/contact" className='hover:font-bold transition-all duration-150'>Contact Us</Link></li>
           <li className='flex gap-5'>
             <Link href="/shorten">
               <button className='bg-green-400 p-1.5 px-3 rounded-md cursor-pointer font-bold text-black hover:text-black hover:bg-green-500 transition-all duration-150'>Try Now</button>
