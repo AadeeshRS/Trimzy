@@ -29,13 +29,22 @@ const Shorten = () => {
         fetch("/api/generate", requestOptions)
             .then((response) => response.json())
             .then((result) => {
-                setgenerated(`${process.env.NEXT_PUBLIC_HOST}/${shorturl}`)
-                seturl("")
-                setshorturl("")
-                toast("URL generated successfully!", { position: "bottom-center" })
+                if (result.success) {
+                    setgenerated(`${process.env.NEXT_PUBLIC_HOST}/${shorturl}`)
+                    seturl("")
+                    setshorturl("")
+                    toast("URL generated successfully!", { position: "bottom-center" })
+                } else {
+                    setgenerated("")
+                    toast(result.message || "Failed to generate URL.", { position: "bottom-center", type: "error" })
+                }
                 console.log(result)
             })
-            .catch((error) => console.error(error));
+            .catch((error) => {
+                setgenerated("")
+                toast("An error occurred.", { position: "bottom-center", type: "error" })
+                console.error(error)
+            });
     }
 
 
