@@ -9,7 +9,7 @@ export default function Home() {
         <div className="bg-amber-50 flex flex-col gap-4 items-center justify-center py-8 md:py-0">
           <TypedHero />
           <div className="flex flex-col md:flex-row gap-4 md:gap-5 w-full md:w-auto items-center">
-            <Link href="/generate">
+            <Link href="/shorten">
               <button className='bg-green-400 p-1.5 px-3 rounded-md cursor-pointer font-bold hover:bg-green-500 transition-all duration-150 w-full md:w-auto'>Try Now</button>
             </Link>
             <Link href="https://github.com/AadeeshRS/Trimzy" target="_blank">
