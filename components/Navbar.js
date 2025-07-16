@@ -26,7 +26,7 @@ const Navbar = () => {
             <Link href="/shorten">
               <button className='bg-green-400 p-1.5 px-3 rounded-md cursor-pointer font-bold text-black hover:text-black hover:bg-green-500 transition-all duration-150'>Try Now</button>
             </Link>
-            <Link href="https://github.com/AadeeshRS/Trimzy">
+            <Link href="https://github.com/AadeeshRS/Trimzy" target='_blank'>
               <button className='bg-green-400 p-1.5 px-3 rounded-md cursor-pointer font-bold text-black hover:text-black hover:bg-green-500 transition-all duration-150'>Github</button>
             </Link>
           </li>

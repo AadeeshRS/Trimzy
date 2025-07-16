@@ -12,7 +12,7 @@ export default function Home() {
             <Link href="/generate">
               <button className='bg-green-400 p-1.5 px-3 rounded-md cursor-pointer font-bold hover:bg-green-500 transition-all duration-150 w-full md:w-auto'>Try Now</button>
             </Link>
-            <Link href="https://github.com/AadeeshRS/Trimzy">
+            <Link href="https://github.com/AadeeshRS/Trimzy" target="_blank">
               <button className='bg-green-400 p-1.5 px-3 rounded-md cursor-pointer font-bold hover:bg-green-500 transition-all duration-150 w-full md:w-auto'>Github</button>
             </Link>
           </div>
