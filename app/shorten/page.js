@@ -49,7 +49,7 @@ const Shorten = () => {
 
 
     return (
-        <div className='mx-auto max-w-lg bg-amber-50 shadow my-10 p-5 rounded-xl flex flex-col gap-3.5'>
+        <div className='w-full mx-auto sm:max-w-lg bg-amber-50 shadow my-10 p-5 rounded-xl flex flex-col gap-3.5'>
             <h1 className='text-3xl font-bold text-green-900 mb-2' >Generate your short URLs</h1>
             <div className='flex flex-col gap-3'>
                 <input type="text" value={url} placeholder='Enter your URL' onChange={e => { seturl(e.target.value) }} className='bg-white focus:outline-green-300 p-2 px-4' />
