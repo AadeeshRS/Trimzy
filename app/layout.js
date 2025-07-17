@@ -32,9 +32,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${poppins.variable} antialiased bg-amber-50`}
+        className={`${poppins.variable} antialiased bg-amber-50 min-h-screen flex flex-col`}
       >
         <Navbar/>
+        <main className="flex-1 flex flex-col">
+          
+        </main>
         {children}
         <Footer/>
       </body>

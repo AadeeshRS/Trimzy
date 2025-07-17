@@ -4,7 +4,7 @@ import TypedHero from "@/components/TypedHero";
 
 export default function Home() {
   return (
-    <main className="min-h-screen ">
+    <main className="max-h-screen ">
       <section className="grid grid-cols-1 md:grid-cols-2 h-auto md:h-[60vh] mt-10 w-full">
         <div className="bg-amber-50 flex flex-col gap-4 items-center justify-center py-8 md:py-0">
           <TypedHero />

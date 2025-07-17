@@ -4,9 +4,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="w-full text-center py-4 bg-green-900 text-white mt-6 flex flex-col md:flex-row gap-2 md:gap-4 items-center justify-between px-4 md:px-10 fixed bottom-0">
+    <footer className="w-full text-center py-4 bg-green-900 text-white mt-6 flex flex-col md:flex-row gap-2 md:gap-4 items-center justify-between px-4 md:px-10">
       <div>
-        MADE WITH <span className="text-red-500">♥</span> BY AADEESH
+        MADE BY AADEESH
       </div>
       <div className="flex gap-4 text-sm flex-wrap justify-center">
         <Link href="/about" className="hover:underline">About</Link>
